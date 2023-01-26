@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bgpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.name-block {
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bio-pic{
+    margin:25px;
+   text-align: justify;
+}
+
+.pic {
+    float: left;
+    background-image: url(../images/aboutpic2.JPG);
+    border-radius: 120px;
+    background-size: 280px;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    margin-right:25px;
+    shape-outside: circle(50%);
+}
+
+.me {
+    color: black;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top:200px;
+    padding: 50px;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list a{
+    text-decoration: none;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-list img {
+    width: 60px;
+    height: 70px;
+}
+
+
+.contacts {
+    display: flex;
+    list-style: none;
+}
+
+.contacts img {
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s ease;
+}
+
+.contacts img:hover {
+    transform: scale(1.2);
+}
+
+.contacts a {
+    margin: 0 20px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* color: rgb(255, 255, 255); */
+}

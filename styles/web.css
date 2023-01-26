@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/bgpic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header-list img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+.header-list img:hover{
+    transform: scale(1.2);
+}
+
+.header-list a {
+
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.head-list{
+    color: #222 !important;
+    background-color: rgba(255, 255, 255, 0.771);
+    padding: 7px 35px;
+    border-radius: 15px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    list-style: none;
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+.contacts img:hover {
+    transform: scale(1.2);
+}
+
+.contacts a {
+    margin: 0 20px;
+    text-decoration: none;
+    /* font-size: 20px; */
+    /* color: rgb(255, 255, 255); */
+}
+
+.name-block {
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+.web-block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.web-block a img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-block {
+    padding-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+
+}
+
+.travel-block {
+    grid-column: 1 / 2;
+    grid-row: 1 /3;
+}
+
+.car-block {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.book-block {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.vitum-block {
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
+}
+
+.vitum-block img {
+    width: 50%;
+}
